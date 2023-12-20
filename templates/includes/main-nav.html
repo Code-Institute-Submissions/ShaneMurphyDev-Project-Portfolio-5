@@ -17,7 +17,7 @@
                 Painting
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="paintings-link">
-                <a href="" class="dropdown-item">All paintings</a>
+                <a href="{% url 'products' %}?category=paintings" class="dropdown-item">All paintings</a>
             </div>
         </li>
 
@@ -37,8 +37,9 @@
                 Pottery
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="pottery-link">
-                <a href="" class="dropdown-item">Vase</a>
-                <a href="" class="dropdown-item">Mugs</a>
+                <a href="{% url 'products' %}?category=pottery,vases" class="dropdown-item">Vase</a>
+                <a href="{% url 'products' %}?category=pottery,mugs" class="dropdown-item">Mugs</a>
+                <a href="{% url 'products' %}?category=pottery,plates" class="dropdown-item">Plates</a>
             </div>
         </li>
 
