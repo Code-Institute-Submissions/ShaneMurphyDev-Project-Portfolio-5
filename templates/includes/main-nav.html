@@ -26,9 +26,9 @@
                 Candles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="candles-link">
-                <a href="" class="dropdown-item">Scented</a>
-                <a href="" class="dropdown-item">Non-Scented</a>
-                <a href="" class="dropdown-item">Melts</a>
+                <a href="{% url 'products' %}?category=candles,scented" class="dropdown-item">Scented</a>
+                <a href="{% url 'products' %}?category=candles,non-scented" class="dropdown-item">Non-Scented</a>
+                <a href="{% url 'products' %}?category=candles,melts" class="dropdown-item">Melts</a>
             </div>
         </li>
 
