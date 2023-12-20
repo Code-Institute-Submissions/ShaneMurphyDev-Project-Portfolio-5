@@ -1,5 +1,4 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, get_object_or_404
 from .models import Product
 
 # Create your views here.
@@ -14,10 +13,6 @@ def all_products(request):
     }
 
     return render(request, 'products/products.html', context)
-
-from django.shortcuts import render
-
-from .models import Product
 
 
 def product_detail(request, product_id):
