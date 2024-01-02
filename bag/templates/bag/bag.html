@@ -148,7 +148,7 @@
         var itemId = $(this).attr('id').split('remove_')[1];
         var size = $(this).data('size');
         var url = `/bag/remove/${itemId}`;
-        var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
+        var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};  // Not sure if i should remove this since my products dont have sizw
 
         $.post(url, data)
          .done(function() {
