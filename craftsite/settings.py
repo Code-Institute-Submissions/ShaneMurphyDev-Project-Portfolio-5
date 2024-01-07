@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-@xzhcm*noq*ec5)s%53!j)^q-zgt(th-#h^4b_8wg@e6oi+mh@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-shanemurphy-projectport-vsql2o62lzs.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-shanemurphy-projectport-vsql2o62lzs.ws-eu107.gitpod.io', 'localhost',
+'covecreations-db940de5c766.herokuapp.com']
 
 
 # Application definition
@@ -126,9 +127,17 @@ WSGI_APPLICATION = 'craftsite.wsgi.application'
 #   }
 #}
 
-DATABASES = {
-     'default': dj_database_url.parse('postgres://dokhygfw:2XS-jQC7ChVNPvrWQcjmM_JvTuUhhZ-J@tyke.db.elephantsql.com/dokhygfw')
- }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation
