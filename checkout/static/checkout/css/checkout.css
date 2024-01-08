@@ -64,3 +64,22 @@ select option[value=""] {
     margin: 0;
     height: 100%;
 }
+
+/*  Footer styling  */
+footer {
+    background-color: white;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
+    color: black;
+}
