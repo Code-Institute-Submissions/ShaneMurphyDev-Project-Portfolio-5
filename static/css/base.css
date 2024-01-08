@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('background.jpg') no-repeat center center fixed;
+    background: url('/media/candles-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -20,7 +20,7 @@ body {
 
 /*  Footer styling  */
 footer {
-    background-color: black;
+    background-color: white;
 }
 
 #social-networks {
@@ -34,7 +34,7 @@ footer {
 #social-networks i {
     font-size: 150%;
     padding: 5%;
-    color: white;
+    color: black;
 }
 
 /* from Bulma */
