@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('') no-repeat center center fixed;
+    background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -16,7 +16,6 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    height: 100%;
 }
 
 /*  Footer styling  */
