@@ -189,38 +189,36 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 #### Returning Visitor Goals
 
-1. As a Returning Visitor, I want to find the new products, promotions, and sales
+1. As a Returning Visitor, I want to find new products, promotions, and sales
 
     - These are all organized neatly into the appropriate tabs and pages
 
-2. As a Returning Visitor, I want to make an account, and keep my basket as a live instance
+2. As a Returning Visitor, I want to make an account
 
-    - The shopping cart is updated as the user adds or removes items
+    - There is the option to create an account and is easily accessable
 
-    - The shopping cart is dynamic and adjusts automatically depending on what the user changes
+3. As a Returning Visitor, I want to be able subscribe to a newsletter
 
-3. As a Returning Visitor, I want to subscribe to a newsletter
-
-    - The footer contains a email subscription input so the user can easily subscribe
+    - The footer contains an email subscription input so the user can easily subscribe
 
 - - -
 
 #### Frequent User Goals
 
-1. As a Frequent User, I want to be able to register for an account
+1. As a Frequent User, I want to be able to log in or out of my account
 
-    - The user can create an account easily and view their order history
+    - The user can easily and clearly log in/out in the navigation bar
 
 
-2. As a Frequent User, I want to 
+2. As a Frequent User, I want to add and remove items from my on site shopping basket
 
-    - 
+    - The shopping basket is dynamic, adds, removes, and shows total as the site user makes actions
 
-3. As a Frequent User, I want to 
+3. As a Frequent User, I want to be able to view my order history and change my profile details
 
-    - 
+    - The users order history will be available on their profile as they make orders
 
-    - 
+    - There is a dedicated profile details page where a user can easily update their information
 
 - - -
 
