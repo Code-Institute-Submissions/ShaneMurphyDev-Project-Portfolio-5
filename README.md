@@ -1,13 +1,13 @@
 <h1 align="center">Cove Creations</h1>
 
-[View the live project here.]()
+[View the live project here.](https://covecreations-db940de5c766.herokuapp.com/)
 
 Cove Creations is an idea I formed with the help of a close family member who has a passion for home crafts and painting.
 The goal is to create a platform to display various items and paintings for sale, and to provide a robust, easy to use, 
 lovely to look at, and welcoming site for those interested in crafts
 
 
-![responsive test]()
+![responsive test](readme_images/responsive.png)
 
 ## Design & Planning:
 
@@ -91,14 +91,16 @@ has also been a great asset as it makes visualizing the tasks at hand much easie
 The project board was divided into 3 sections:
 
   -  To-Do
+
   -  In Progress
+
   -  Done-
 
 <details>
 <summary>Click here to view</summary>
 <br>
 
-![kanban]()
+![kanban](readme_images/kanban.png)
 
 </details>
 
@@ -113,7 +115,7 @@ The project board was divided into 3 sections:
 <summary>Desktop</summary>
 <br>
 
-![Desktop performance]()
+![Desktop performance](readme_images/Desktop-performance.png)
 
 </details>
 
@@ -162,8 +164,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <br>
 
 ![python testing]()
+
 ![python testing 2]()
+
 ![python testing 3]()
+
 ![python testing 4]()
 
 </details>
