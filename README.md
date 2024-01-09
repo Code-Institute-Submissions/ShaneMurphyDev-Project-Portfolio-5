@@ -165,13 +165,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <summary>Python Validation</summary>
 <br>
 
-![python testing]()
+![python testing](readme_images/valid.settings.png)
 
-![python testing 2]()
+![python testing 2](readme_images/valid.bag.png)
 
-![python testing 3]()
+![python testing 3](readme_images/valid.checkout.model.png)
 
-![python testing 4]()
+![python testing 4](readme_images/valid.webhook.png)
 
 </details>
 
