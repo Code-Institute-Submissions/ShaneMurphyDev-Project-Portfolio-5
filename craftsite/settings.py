@@ -14,7 +14,7 @@ import os
 import dj_database_url
 from pathlib import Path
 if os.path.isfile("env.py"):
-   import env
+    import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,8 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-shanemurphy-projectport-ffzk8qqfd1l.ws-eu107.gitpod.io', 'localhost',
-'covecreations-db940de5c766.herokuapp.com']
+ALLOWED_HOSTS = ['8000-shanemurphy-projectport-ffzk8qqfd1l.ws-eu107.gitpod.io', 'localhost', 'covecreations-db940de5c766.herokuapp.com']
 
 
 # Application definition
@@ -80,7 +79,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -123,12 +122,12 @@ WSGI_APPLICATION = 'craftsite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-#DATABASES = {
+# DATABASES = {
 #    'default': {
 #       'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': BASE_DIR / 'db.sqlite3',
 #   }
-#}
+# }
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
@@ -202,7 +201,6 @@ if 'USE_AWS' in os.environ:
     # Override static and media URLs in production
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
-
 
 
 # Default primary key field type
