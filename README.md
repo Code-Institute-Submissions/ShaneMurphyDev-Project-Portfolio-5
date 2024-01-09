@@ -149,7 +149,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <summary>CSS Validation</summary>
 <br>
 
-![css validation]()
+![base css validation](readme_images/base.css.validation.png)
+
+![checkout css validation](readme_images/checkout.css.validation.png)
+
+![profile css validation](readme_images/profile.css.validation.png)
 
 </details>
 
