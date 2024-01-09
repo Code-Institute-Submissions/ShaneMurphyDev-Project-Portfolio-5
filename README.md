@@ -79,14 +79,15 @@ lovely to look at, and welcoming site for those interested in crafts
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 ### Agile Methodology
-The Agile Methodology was used to plan this project. I did learn more towards the end of the project about the use of the agile develepment, and why it's important and usefull to keep track of the whole process and to implement as much as you can. 
-I've used Github and the Project Board with use of the Kanban board.
+I have strived to use agile methodolgy throughout this project as planning in advance has made the over all project easier to
+manage, I have learned the importance of breaking the project into smaller individual tasks, the use of a kanban board
+has also been a great asset as it makes visualizing the tasks at hand much easier
 
 The project board was divided into 3 sections:
 
-  -  To-Do- (All the User stories were initially entered in the 'To Do' column)
-  -  In Progress- (then during development story they were moved into the 'In Progress' column)
-  -  Done- (and then finally they get moved into 'Done' once the development completes)
+  -  To-Do
+  -  In Progress
+  -  Done-
 
 <details>
 <summary>Click here to view</summary>
@@ -165,68 +166,61 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the site.
 
-    - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a list of blog posts to cath the users attention.
-
-    - The main points are made immediately with the posts
-
-- - -
-
-2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-
-    - The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-
-    - The page structure and post list is clearly defined.
-
-    - The site and positive prompts and feed back pop ups for the user.
+    - The home page includes a greeting with a banner, navigation bar, and logo. The layout is kept clean and simple
+    so as to not over overwhelm a new visitor 
 
 - - -
 
-3. As a First Time Visitor, I want to look for blogs to understand what their users are posting. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+2. As a First Time Visitor, I want to be able to easily be able to view products and navigate the site
 
-    - Once the new visitor has read the About Us, they will habe a good understanding of the sites intent and usage.
+    - The catagories are kept clean and easily readable
 
-    - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+    - There are prompts to help a user find what their looking for if they had a particular product in mind
+
+- - -
+
+3. As a First Time Visitor, I want to look for products and see price, a description, and ratings 
+
+    - All information on each product is kept together so users can get all of the informaton they need on each product
+
+    - Each products has a unique name, descriptions, rating and price
 
 - - -
 
 #### Returning Visitor Goals
 
-1. As a Returning Visitor, I want to find the new posts and comments left by other users.
+1. As a Returning Visitor, I want to find the new products, promotions, and sales
 
-    - These are clearly shown in the post detail page..
+    - These are all organized neatly into the appropriate tabs and pages
 
-2. As a Returning Visitor, I want to find the best way to get engaged with the community.
+2. As a Returning Visitor, I want to make an account, and keep my basket as a live instance
 
-    - The navigation bar clearly highlights the each Page.
+    - The shopping cart is updated as the user adds or removes items
 
-    - The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+    - The shopping cart is dynamic and adjusts automatically depending on what the user changes
 
-    - Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+3. As a Returning Visitor, I want to subscribe to a newsletter
 
-    - The subscribe button is set up to automatically goint to send the user a confirmatiom email.
-
-3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-
-    - The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+    - The footer contains a email subscription input so the user can easily subscribe
 
 - - -
 
 #### Frequent User Goals
 
-1. As a Frequent User, I want to check to see if there are any newly posts, likes and comments.
+1. As a Frequent User, I want to be able to register for an account
 
-    - The user would already be comfortable with the website layout and can easily click the banner message.
+    - The user can create an account easily and view their order history
 
 
-2. As a Frequent User, I want to check to see if there are any new blog posts.
+2. As a Frequent User, I want to 
 
-    - The user would already be comfortable with the website layout and can easily click the blog link
+    - 
 
-3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+3. As a Frequent User, I want to 
 
-    - At the bottom of every page their is a footer which content is consistent throughout all pages.
+    - 
 
-    - There is a "Submit" button for every form and is clearly detailed.
+    - 
 
 - - -
 
@@ -243,32 +237,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome
 
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as 
 
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   
 
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   
 
 - - -
 
 ## Libraries
-- asgiref - A standard Python library to allow for asynchronous web apps and servers to communicate with each other.
-- cloudinary - A Python package allowing integration between the application and Cloudinary.
 - dj-database-url - A Django utility to utilise the DATABASE_URL environment variable to configure the Django application. Used with PostgreSQL.
-- dj3-cloudinary-storage - A Django package that facilitates integration with Cloudinary storage.
 - Django - A python package for the Django framework.
-- django-active-link - A Django package used to highlight an active link in the site navigation bars.
 - django-allauth - An integrated set of Django applications addressing user authentication, registration and account management.
-- django-summernote - is a third-party package that provides a rich text editor widget for Django web applications.
 - django-crispy-forms - A Django package that provides tags and filters to control the rendering behaviour of Django forms. 
 - gunicorn - A Python WSGI HTTP Server for UNIX.
 - oauthlib - A generic, spec-compliant, thorough implementation of the OAuth request-signing logic for Python 3.6+.
 - psycopg2 - A PostgreSQL database adapter for Python.
 - PyJWT - A Python library that allows for encoding and decoding of JSON Web Tokens (JWT).
-- python3-openid - A set of Python packages to support use of the OpenID decentralized identity system.
-- requests-oauthlib - A Python package for OAuthlib authentication support for Requests.
 - sqlparse - A non-validating SQL parser for Python.
 
 ## Deployment
@@ -294,7 +281,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ShaneMurphyDev/Project-Portfolio-4)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ShaneMurphyDev/Project-Portfolio-5)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -302,13 +289,13 @@ The project was deployed to GitHub Pages using the following steps...
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/ShaneMurphyDev/Project-Portfolio-4
+$ git clone https://github.com/ShaneMurphyDev/Project-Portfolio-5
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/ShaneMurphyDev/Project-Portfolio-4
+$ git clone https://github.com/ShaneMurphyDev/Project-Portfolio-5
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
