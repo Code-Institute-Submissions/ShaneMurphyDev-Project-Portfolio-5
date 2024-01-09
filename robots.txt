@@ -1,0 +1,4 @@
+User-agent: *
+Disallowed: /accounts/
+Disallowed: /bag/
+Sitemap: https://covecreations-db940de5c766.herokuapp.com/sitemap.xml

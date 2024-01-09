@@ -23,25 +23,24 @@ lovely to look at, and welcoming site for those interested in crafts
 
         - As a Returning Visitor, I want to be able to log in/out.
         - As a Returning Visitor, I want to be able to see products.
-        - As a Returning Visitor, I want to  be able to engage with others in a meaningful way, by seeing ratings or reviews from other customers.
+        - As a Returning Visitor, I want to  be able to view products reviews to help with my purchase
 
 
 - #### Frequent User Goals
 
         - As a Frequent User, I want to be kept up to date with a newsletter.
-        - As a Frequent User, I want to take part in discussions and leave ratings/reviews.
+        - As a Frequent User, I want to updaye my profile details as they change
         - As a Frequent User, I want to be able to keep a basket with saved items.
 
 ### Design
 -   #### Colour Scheme
 
-        -   The two main colours used are black and white, with accented images and text design.
-
--   #### Typography
-        - 
+        -   The two main colours used are black and white, with accented images and text design. The site contains many product
+        images to color and design was kept simple to steer the users attention to the products
 
 -   #### Imagery
-        -  
+        -  The home page contains a simple background image, and each products has its own image so a user can see 
+        the products in question
 
 ### Wireframes
 <details>
@@ -50,9 +49,9 @@ lovely to look at, and welcoming site for those interested in crafts
 
 ![Home Page]()
 
-![Post Detail Page]()
+![]()
 
-![Create a Post page]()
+![]()
 
 </details>
 
@@ -61,22 +60,28 @@ lovely to look at, and welcoming site for those interested in crafts
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
 -   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the basic layout.
+
 2. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+
 3. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
+
 4. [Django](https://www.djangoproject.com/)
-    - Django was used for 
+
 5. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on all pages throughout the website to add icons
 
 ### Agile Methodology
 I have strived to use agile methodolgy throughout this project as planning in advance has made the over all project easier to
@@ -235,13 +240,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome
+-   The Website was tested on Google Chrome, Microsoft Edge, Firefox & Safari
 
--   The website was viewed on a variety of devices such as 
-
--   
-
--   
+-   The website was viewed on a variety of devices such as Desktop, Mobile & Tablet
 
 - - -
 
