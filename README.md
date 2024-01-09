@@ -311,10 +311,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Django User requests and interface/models tutorial [Here](https://docs.djangoproject.com/en/4.2/topics/class-based-views/generic-editing/#models-and-request-user)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [Slugs](https://learndjango.com/tutorials/django-slug-tutorial) : For setting up prepopulated slugs on the front end to 
-improve UX
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
 ### Content
 
@@ -324,10 +321,12 @@ improve UX
 
 ### Media
 
--   All Images were taken from [Pixabay](https://pixabay.com/)
+-   All Images were taken from [Pixabay](https://pixabay.com/) or provided by my family member who made the crafts
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+- My sister for helping with the idea and providing me with images of the crafts she has made
