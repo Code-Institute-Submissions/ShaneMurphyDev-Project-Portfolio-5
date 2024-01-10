@@ -34,7 +34,7 @@ and interesting products either for themselves or for a loved one.
 - Our products range from unique, non repeatable paintings, candles of all variety (Scented, Melts, & Non-Scented)
 and pottery such as mugs, plates and vases
 
-- Our unique selling point is simply the love and quality gon in to each product, great levels of care and effort go into
+- Our unique selling point is simply the love and quality gone in to each product, great levels of care and effort go into
 each item, and it shows. Often it's to just get someone a voucher, socks or some bodywash, but with our items your loved one
 is sure to appreciate the level of thought gone into each product
 
@@ -134,7 +134,7 @@ new ideas, and fufilling orders
 
 -   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries, Programs & additonal sites used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
@@ -149,6 +149,8 @@ new ideas, and fufilling orders
     - Balsamiq was used to create the wireframes during the design process.
 
 4. [Django](https://www.djangoproject.com/)
+
+    - Django was used throughout the site for it's incredible utility
 
 5. [Font Awesome:](https://fontawesome.com/)
 
@@ -366,15 +368,27 @@ an easy awy to unsubscibe if they so wish
 
 </details>
 
+<details>
+<summary>Click here to view the email sent to users</summary>
+<br>
+
+![Mailchimp Email](readme_images/mailchimp.email.png)
+
+</details>
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Microsoft Edge, Firefox & Safari
 
 -   The website was viewed on a variety of devices such as Desktop, Mobile & Tablet
 
+-   Google Lighthouse was used to test sites perfomance and SEO 
+
+
 - - -
 
 ## Libraries
+
 - dj-database-url - A Django utility to utilise the DATABASE_URL environment variable to configure the Django application. Used with PostgreSQL.
 
 - Django - A python package for the Django framework.
@@ -394,6 +408,19 @@ an easy awy to unsubscibe if they so wish
 - sqlparse - A non-validating SQL parser for Python.
 
 ## Deployment
+
+### Deploying on Heroku
+
+1. Create a Heroku account.
+2. Sign up with a student account for credits. (optional)
+3. Once logged in, select create a new app.
+4. Select an app name and region.
+5. Select deployment method as connect to github.
+6. Find the desired repo. Hugo Marquis in this instance.
+7. Enable automatic deploys and select the main branch
+8. In the settings tab select reveal config vars. Input the required hidden variables.
+9. Select nodejs and python as the buildpack.
+Deploy.
 
 ### GitHub Pages
 
