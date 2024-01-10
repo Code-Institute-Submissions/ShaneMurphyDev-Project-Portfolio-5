@@ -9,7 +9,7 @@ lovely to look at, and welcoming site for those interested in crafts
 
 ![responsive test](readme_images/responsive.png)
 
-## Business Plan:
+## Business Plan
 
 ## Summary:
 
@@ -152,7 +152,7 @@ The project board was divided into 3 sections:
   -  Done-
 
 <details>
-<summary>Click here to view</summary>
+<summary>Click here to view kanban board</summary>
 <br>
 
 ![kanban](readme_images/kanban.png)
@@ -296,7 +296,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - I wanted to keep this as inintrusive as possible, users will me prompted with a pop-up
 to subscibe to our newsletter after being on the site for 20 seconds, this is limited to happening 
-once a day so as not to spam
+once a day so as not to spam. Upon subscribing users will recieve a confirmation email
+to the provided email address
 
 <details>
 <summary>Click here to view mobile prompt</summary>
@@ -358,6 +359,7 @@ The project was deployed to GitHub Pages using the following steps...
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
