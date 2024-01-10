@@ -85,13 +85,26 @@ new ideas, and fufilling orders
         there is on offer
 
 ### Wireframes
+
 <details>
 <summary>Click here to view</summary>
 <br>
 
 ![Home Page]()
 
+</details>
+
+<details>
+<summary>Click here to view</summary>
+<br>
+
 ![]()
+
+</details>
+
+<details>
+<summary>Click here to view</summary>
+<br>
 
 ![]()
 
@@ -124,17 +137,21 @@ new ideas, and fufilling orders
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
     - Bootstrap was used to assist with the basic layout.
 
 2. [GitHub:](https://github.com/)
+
     - GitHub is used to store the projects code after being pushed from Git.
 
 3. [Balsamiq:](https://balsamiq.com/)
+
     - Balsamiq was used to create the wireframes during the design process.
 
 4. [Django](https://www.djangoproject.com/)
 
 5. [Font Awesome:](https://fontawesome.com/)
+
     - Font Awesome was used on all pages throughout the website to add icons
 
 ### Agile Methodology
@@ -192,17 +209,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [Python Linter](https://pep8ci.herokuapp.com/)
 
+- - -
 <details>
 <summary>HTML Validation</summary>
 <br>
 
-![base html validation]()
-
-![bootstrap error]()
-
-![bootstrap code error]()
+![base html validation](readme_images/html.validation.png)
 
 </details>
+
+The only errors present in my HTML code all relate to the use of Bootstrap and are inconsequential to
+the funtionality of the sight, I have tested this to ensure everything works as is intended.
+
+- - -
 
 <details>
 <summary>CSS Validation</summary>
@@ -215,6 +234,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![profile css validation](readme_images/profile.css.validation.png)
 
 </details>
+
+- - -
 
 <details>
 <summary>Python Validation</summary>
@@ -230,6 +251,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 </details>
 
+The only 'issues' with my python code is that the lines are too long, I have used a formatter to reduce this
+as much as possible. After much testing I am happy this does no affect the functionality
+of my site at all.
+
+- - -
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -238,7 +264,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the site.
 
     - The home page includes a greeting with a banner, navigation bar, and logo. The layout is kept clean and simple
-    so as to not over overwhelm a new visitor 
+    so as to not over overwhelm a new visitor
 
 - - -
 
@@ -254,7 +280,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     - All information on each product is kept together so users can get all of the informaton they need on each product
 
-    - Each products has a unique name, descriptions, rating and price
+    - Each products has a unique name, descriptions, rating and price which is all
+    clearly shown either in the tabs, catagory or products detail page
 
 - - -
 
@@ -262,15 +289,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 1. As a Returning Visitor, I want to find new products, promotions, and sales
 
-    - These are all organized neatly into the appropriate tabs and pages
+    - These are all organized neatly into the appropriate tabs and pages, the focus was
+    to help the user find what they are looking for and potentional expose them to items
+    they may also be intersted in
 
 2. As a Returning Visitor, I want to make an account
 
-    - There is the option to create an account and is easily accessable
+    - There is the option to create an account and is easily accessable, all inputs are
+    clear and descriptive of their intent and expected input
 
 3. As a Returning Visitor, I want to be able subscribe to a newsletter
 
-    - The footer contains an email subscription input so the user can easily subscribe
+    - The site will prompt the user with a newsletter subscription after
+    roughly 20 seconds being on the site, the pop up will only occur one time
+    a day so as not to annoy or potentionaly disrupt the users experience
 
 - - -
 
@@ -278,26 +310,37 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 1. As a Frequent User, I want to be able to log in or out of my account
 
-    - The user can easily and clearly log in/out in the navigation bar
+    - The user can easily and clearly log in/out in the navigation bar, this 
+    is kept very easy and clear on how to do this
 
 2. As a Frequent User, I want to add and remove items from my on site shopping basket
 
-    - The shopping basket is dynamic, adds, removes, and shows total as the site user makes actions
+    - The shopping basket is dynamic, adds, removes, and shows total as the site user makes actions, 
+    it also creates a user 'session' in the basket so as to improve the over all experience
+    and convenience for the user
 
 3. As a Frequent User, I want to be able to view my order history and change my profile details
 
-    - The users order history will be available on their profile as they make orders
+    - The users order history will be available on their profile as they make orders, this is
+    easily readable and kept clear and well organised
 
-    - There is a dedicated profile details page where a user can easily update their information
+    - There is a dedicated profile details page where a user can easily update their information or 
+    make various other actions they may need to do
 
 - - -
 
 ## Newsletter Testing
 
-- I wanted to keep this as inintrusive as possible, users will me prompted with a pop-up
+- I have decided to use Mailchimp for this project as its very flexible and has incredible 
+customization and was easy to learn
+
+- I wanted to keep this as unintrusive as possible, users will me prompted with a pop-up
 to subscibe to our newsletter after being on the site for 20 seconds, this is limited to happening 
 once a day so as not to spam. Upon subscribing users will recieve a confirmation email
 to the provided email address
+
+- Users will recieve an email from a dedicated business email, with all the expected information and
+an easy awy to unsubscibe if they so wish
 
 <details>
 <summary>Click here to view mobile prompt</summary>
@@ -418,22 +461,28 @@ during development
 
 - W3schools for all help involving various syntax issues
 
-- youtube channels from Denis Ivvy, Code artistan lab, Very accademy and Rathar Kuman which videos and django e-commerce projects I watched to get better understanding of the code
+- Youtube channels such as Codemy
 
 ### Content
 
--   All content was written by the developer.
+- All content was written by the developer.
 
--   Color pallete from: [Cooler](https://coolors.co/)
+- Color pallete from: [Cooler](https://coolors.co/)
+
+- The Boutique Ado walkthrough project for the foundations of this project
 
 ### Media
 
--   All Images were taken from [Pixabay](https://pixabay.com/) or provided by my family member who made the crafts
+- Background Image was taken from [Pixabay](https://pixabay.com/)
+
+- All other images were provided by a family member with full consent to use for the site
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+- Class facilitator Marko for the constant support, advice and direction throughout this project
 
--   Tutor support at Code Institute for their support.
+- My Mentor Dario for continuous helpful feedback.
+
+- Tutor support at Code Institute for their support.
 
 - My sister for helping with the idea and providing me with images of the crafts she has made
