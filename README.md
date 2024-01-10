@@ -75,11 +75,14 @@ new ideas, and fufilling orders
 -   #### Colour Scheme
 
         -   The two main colours used are black and white, with accented images and text design. The site contains many product
-        images to color and design was kept simple to steer the users attention to the products
+        images to color and design was kept simple to steer the users attention to the products. I feel if I introduce distinct
+        or visually distracting colours it will take the users attention from the products
 
 -   #### Imagery
         -  The home page contains a simple background image, and each products has its own image so a user can see 
-        the products in question
+        the products in question. I decided to go for a simple layout to keep the focus on the products, as they
+        are quite pleasing in their own right. I hope to encourage user to explore the site and see everything
+        there is on offer
 
 ### Wireframes
 <details>
@@ -91,6 +94,18 @@ new ideas, and fufilling orders
 ![]()
 
 ![]()
+
+</details>
+
+- - -
+
+<details>
+<summary>Click here to view Facebook mockup</summary>
+<br>
+
+
+![Facebook Mockup](readme_images/facebookmockup.png)
+
 
 </details>
 
@@ -265,7 +280,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     - The user can easily and clearly log in/out in the navigation bar
 
-
 2. As a Frequent User, I want to add and remove items from my on site shopping basket
 
     - The shopping basket is dynamic, adds, removes, and shows total as the site user makes actions
@@ -278,14 +292,33 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - - -
 
-## Subscription Testing
+## Newsletter Testing
+
+- I wanted to keep this as inintrusive as possible, users will me prompted with a pop-up
+to subscibe to our newsletter after being on the site for 20 seconds, this is limited to happening 
+once a day so as not to spam
+
 <details>
-<summary>Click here to view</summary>
+<summary>Click here to view mobile prompt</summary>
 <br>
 
-![python testing]()
+![Mailchimp Mobile](readme_images/mailchimp.mobile.png)
 
-![python testing]()
+</details>
+
+<details>
+<summary>Click here to view desktop prompt</summary>
+<br>
+
+![Mailchimp Desktop](readme_images/mailchimp.desktop.png)
+
+</details>
+
+<details>
+<summary>Click here to view Mailchimp success prompt</summary>
+<br>
+
+![Mailchimp success](readme_images/mailchimp.success.png)
 
 </details>
 
