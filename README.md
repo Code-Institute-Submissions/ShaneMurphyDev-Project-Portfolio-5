@@ -9,27 +9,66 @@ lovely to look at, and welcoming site for those interested in crafts
 
 ![responsive test](readme_images/responsive.png)
 
-## Design & Planning:
+## Business Plan:
+
+## Summary:
+
+- Cove Creations goal is to mainly cater to the crafts and gifts market. More so these days than ever people
+are appreciating unique, custom, and handmade products more than ever, rather mass produced cookie cutter products.
+
+- The ultimate goal is to provide a welcoming easy to use website, that users can browse at their leasure, 
+find a product that interests them, make a purchase, register for an account, view their profile, update their details,
+and so on.
+
+### 
+
+- The origin of this idea came from mutual conversation with an artistic family member, they have a passion for
+art, crafts, pottery, creating, and are very talented in making their items feel like a huge amount of care is 
+taken in each individual order
+
+- The target market for is, in a wide array, the gifts market, and in scope, for indivduals looking for unique
+and interesting products either for themselves or for a loved one.
+
+## Products and services
+
+- Our products range from unique, non repeatable paintings, candles of all variety (Scented, Melts, & Non-Scented)
+and pottery such as mugs, plates and vases
+
+- Our unique selling point is simply the love and quality gon in to each product, great levels of care and effort go into
+each item, and it shows. Often it's to just get someone a voucher, socks or some bodywash, but with our items your loved one
+is sure to appreciate the level of thought gone into each product
+
+### Organization and Management
+
+- The business will be divided very simply, I will work on the technical side, website creation, marketing
+and treding research, and my sister will focus solely on the creative side, making the products, creating
+new ideas, and fufilling orders
 
 ### User Stories
 
  - #### First Time Visitor Goals
 
         - As a First Time Visitor, I want to easily understand the main purpose of the site.
+
         - As a First Time Visitor, I want to be able to easily navigate throughout the site to find products.
+
         - As a First Time Visitor, I want to be able to create an account.
 
 - #### Returning Visitor Goals
 
         - As a Returning Visitor, I want to be able to log in/out.
+
         - As a Returning Visitor, I want to be able to see products.
+
         - As a Returning Visitor, I want to  be able to view products reviews to help with my purchase
 
 
 - #### Frequent User Goals
 
         - As a Frequent User, I want to be kept up to date with a newsletter.
+
         - As a Frequent User, I want to updaye my profile details as they change
+        
         - As a Frequent User, I want to be able to keep a basket with saved items.
 
 ### Design
@@ -84,6 +123,7 @@ lovely to look at, and welcoming site for those interested in crafts
     - Font Awesome was used on all pages throughout the website to add icons
 
 ### Agile Methodology
+
 I have strived to use agile methodolgy throughout this project as planning in advance has made the over all project easier to
 manage, I have learned the importance of breaking the project into smaller individual tasks, the use of a kanban board
 has also been a great asset as it makes visualizing the tasks at hand much easier
@@ -259,13 +299,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Libraries
 - dj-database-url - A Django utility to utilise the DATABASE_URL environment variable to configure the Django application. Used with PostgreSQL.
+
 - Django - A python package for the Django framework.
+
 - django-allauth - An integrated set of Django applications addressing user authentication, registration and account management.
+
 - django-crispy-forms - A Django package that provides tags and filters to control the rendering behaviour of Django forms. 
+
 - gunicorn - A Python WSGI HTTP Server for UNIX.
+
 - oauthlib - A generic, spec-compliant, thorough implementation of the OAuth request-signing logic for Python 3.6+.
+
 - psycopg2 - A PostgreSQL database adapter for Python.
+
 - PyJWT - A Python library that allows for encoding and decoding of JSON Web Tokens (JWT).
+
 - sqlparse - A non-validating SQL parser for Python.
 
 ## Deployment
@@ -292,10 +340,15 @@ The project was deployed to GitHub Pages using the following steps...
 ### Making a Local Clone
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ShaneMurphyDev/Project-Portfolio-5)
+
 2. Under the repository name, click "Clone or download".
+
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+
 4. Open Git Bash
+
 5. Change the current working directory to the location where you want the cloned directory to be made.
+
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
@@ -322,6 +375,15 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Django User requests and interface/models tutorial [Here](https://docs.djangoproject.com/en/4.2/topics/class-based-views/generic-editing/#models-and-request-user)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
+- Stackoverflow community for all the posts, comments and help with any issues I ran into
+during development
+
+- Code institute for their walkthrough project Butique Ado which was used as core for my website
+
+- W3schools for all help involving various syntax issues
+
+- youtube channels from Denis Ivvy, Code artistan lab, Very accademy and Rathar Kuman which videos and django e-commerce projects I watched to get better understanding of the code
 
 ### Content
 
