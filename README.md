@@ -87,26 +87,34 @@ new ideas, and fufilling orders
 ### Wireframes
 
 <details>
-<summary>Click here to view</summary>
+<summary>Click here to view home</summary>
 <br>
 
-![Home Page]()
+![Home Page](readme_images/Wireframe.home.png)
 
 </details>
 
 <details>
-<summary>Click here to view</summary>
+<summary>Click here to view mobile</summary>
 <br>
 
-![]()
+![Mobile](readme_images/wireframe.mobile.png)
 
 </details>
 
 <details>
-<summary>Click here to view</summary>
+<summary>Click here to view products</summary>
 <br>
 
-![]()
+![Products](readme_images/wireframe.products.png)
+
+</details>
+
+<details>
+<summary>Click here to view product details</summary>
+<br>
+
+![Product detail](readme_images/wireframe.productsdetail.png)
 
 </details>
 
@@ -118,7 +126,6 @@ new ideas, and fufilling orders
 
 
 ![Facebook Mockup](readme_images/facebookmockup.png)
-
 
 </details>
 
