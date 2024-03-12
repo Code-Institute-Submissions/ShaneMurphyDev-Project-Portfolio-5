@@ -36,9 +36,13 @@ footer {
 }
 
 #social-networks i {
-    font-size: 150%;
+    font-size: 200%;
     padding: 5%;
     color: black;
+}
+
+#mc_embed_signup form {
+    padding: 0;
 }
 
 /* from Bulma */
