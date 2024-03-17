@@ -38,4 +38,6 @@ class CategoryAdmin(admin.ModelAdmin):
         'name',
     )
 
-admin.site.register(Product, Painting, Category, PaintingAdmin)
+admin.site.register(Product)
+admin.site.register(Painting)
+admin.site.register(Category)
