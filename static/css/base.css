@@ -13,16 +13,16 @@ body {
     flex-direction: column;
 }
 
+.h-100 {
+    min-height: 100%;
+}
+
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.h-100 {
-    min-height: 100%;
 }
 
 /*  Footer styling  */
